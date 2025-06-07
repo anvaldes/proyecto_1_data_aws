@@ -3,6 +3,12 @@ name: Deploy Lambda Docker to AWS
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'lambda_function.py'
+      - 'uniendo_data.py'
+      - 'data_pipeline.py'
+      - 'Dockerfile'
+      - 'requirements.txt'
 
 jobs:
   deploy:
