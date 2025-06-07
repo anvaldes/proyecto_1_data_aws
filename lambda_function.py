@@ -51,5 +51,5 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body': f"✅ Pipeline completado y datasets guardados para {year}-{month}"
+        'body': f"✅ Muy bien!!! Pipeline completado y datasets guardados para {year}-{month}"
     }
